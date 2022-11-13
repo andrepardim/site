@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Thaoma, sans-serifa;
+
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 2.0);
+    height: 50px;
+}
+
+.logo {
+    color: #11e311;
+    margin-top: 8px;
+}
+
+.menu-container {
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.menu-container a.active-menu {
+    background-color: #6c0470;
+}
+
+.menu-container a {
+    color: #11e31c;
+    display: inline-block;
+    margin: 0 0px;
+    text-decoration: nome;
+    padding: 0 10px;
+
+    line-height: 50px;
+    transition: 0.8s;
+}
+
+.menu-container a:hover {
+    color: #861dcc;
+}
+
+
+section.main {
+    position: relative;
+    min-height: 430px;
+    min-width: 300px;
+    background-image: url('blach.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-chamada h1 {
+    background: #11e31c;
+    height: 100px;
+    position: relative;
+    /* bottom: 200px;
+    left: 100px; */
+    top: 350px;
+
+
+}
+
+.text-chamada h1 {
+    font-size: 60px;
+    height: 100px;
+    margin-top: 15px;
+    color: #4d034d;
+
+}
+
+section.produtos {
+
+    background: #240b24;
+    padding: 100px 0;
+    text-align: center;
+    color: #fdfdfd;
+
+}
+
+section.main {
+    position: relative;
+    min-height: 430px;
+    min-width: 300px;
+    background-image: url('image/blach.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section.prdutos h3 {
+    text-transform: uppercase;
+}
+
+.produto-single {
+    text-align: left;
+}
+
+.produto-container {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.produto-single {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.produto-single h3 {
+    text-align: center;
+    background-color: #5a125e;
+    border: 1px solid hotpink;
+    padding: 8px;
+
+}
+
+.produto-single p {
+    background-color: aqua;
+    padding: 8px;
+    color: black;
+}
+
+
+.produto-single img {
+    width: 100%;
+    display: block;
+}
+
+
+footer {
+    background-color: #4e0857;
+    text-align: center;
+    padding: 8px;
+    color: aliceblue;
+}
+
+
+.hulk img {
+    height: 480px;
+    margin-top: 100px;
+
+}
+
+.hulk h3 {
+    color: #11e31c;
+    text-align: left;
+    margin-left: 430px;
+
+
+}
+
+.hulk p {
+    color: white;
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.liga {
+    height: 480px;
+    margin-top: 100px;
+
+
+}
+
+.liga h3 {
+    color: #11e31c;
+    text-align: left;
+    margin-left: 550px;
+
+}
+
+.liga p {
+    color: white;
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 20px;
+
+
+}
+.naruto{
+    height: 480px;
+    margin-top: 100px;
+}
+
+.naruto h3 {
+    color: #11e31c;
+    text-align: left;
+    margin-left: 570px;
+
+
+}
+.naruto p{
+    color: white;
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 20px;
+
+
+}
+.tom {
+    height: 480px;
+    margin-top: 100px;
+}
+.tom h3{
+    color: #11e31c;
+    text-align: left;
+    margin-left: 550px;
+}
+.tom p{
+    color: white;
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.simpson {
+    height: 480px;
+    margin-top: 100px;
+}
+.simpson h3{
+    color: #11e31c;
+    text-align: left;
+    margin-left: 550px;
+}
+.simpson p{
+    color: white;
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.pokemon {
+    height: 480px;
+    margin-top: 100px;
+}
+.pokemon h3{
+    color: #11e31c;
+    text-align: left;
+    margin-left: 550px;
+}
+.pokemon p{
+    color: white;
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.samurai {
+    height: 480px;
+    margin-top: 100px;
+}
+.samurai h3{
+    color: #11e31c;
+    text-align: left;
+    margin-left: 550px;
+}
+.samurai p{
+    color: white;
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 20px;
+}

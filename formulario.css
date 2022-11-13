@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Thaoma, sans-serifa;
+
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin-top: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 2.0);
+    height: 50px;
+    margin-right: 0px;
+    margin-left: -500px;
+
+}
+.menu-container a.active-menu {
+    background-color: #6c0470;
+}
+
+.menu-container a {
+    color: #11e31c;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: nome;
+    padding: 0 10px;
+
+    line-height: 50px;
+    transition: 0.8s;
+}
+
+.menu-container a:hover {
+    color: #861dcc;
+}
+
+
+#titulo {
+    font-family: sans-serif;
+    color: rgb(22, 2, 41);
+    margin-left: 7%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: rgb(181, 110, 247);
+    margin-left: 10%;
+
+}
+fieldset{
+    border: 0;
+
+}
+
+body{
+    background-color: rgb(49, 4, 86);
+    font-family:sans-serif;
+    font: size 1em; ;
+    color: rgb(37, 245, 57);
+    margin-left: 36%;
+    margin-top: 0%;
+    justify-content: center;
+
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color:rgb(17, 232, 103);
+    
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em ;
+    border: 1px solid #061624;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+
+}
+
+.campo input, .campo select:focus, .campo textarea:facus {
+    background: #e0e0f8;
+
+}
+
+    .botao {
+        font-size: 1.2em;
+        background: #4019b7;
+        border: 0;
+        margin-bottom: 1em;
+        color: #ffffff;
+        padding: 0.2em 0.6em;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0,0.5);
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);   
+    }
+
+    .botao:hover{
+        background: #ccbbff;
+        box-shadow: insert 2px 2px 2px rgba (0,0,0,0.2);
+        text-shadow: none;
+    }
+
+    #check{
+        display: inline-block;
+    }
+    .image{
+        width: 20vw;
+        margin-left: 500px;
+        margin-top: -30%;
+  
+    }

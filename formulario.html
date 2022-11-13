@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <div class="center menu-container">
+
+        
+            <div class="menu">
+                <a class="active-menu" href="">Home</a>
+                <a href="formulario.html">Cadastro</a>
+                <a href="teladelogin.html">login</a>
+
+        </div>
+        <!--center-->
+    </header>
+
+    <div>
+        <h1 id="tituto">Cadastro de usuario</h1>
+        <p id="subtitulo"><strong>Complete suas informações</strong></p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+
+                <label for="sobrenome"><strong>sobre nome</strong></label>
+                <input type="text" name="Sobrenome" id="Sobrenome" required><br>
+            </div>
+
+        </fieldset>
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" email="email" id="email" required><br>
+        </div>
+        <div class="campo">
+            <label><strong>Qual estilo e o seu?</strong></label>
+            <tabel>
+                <input type="radio" name="desenho" value="dc">DC
+            </tabel>
+            <tabel>
+                <input type="radio" name="desenho" value="mangá" checked>Manga
+            </tabel>
+            <tabel>
+                <input type="radio" name="desenho" value="marvel">Marvel
+            </tabel>
+            <tabel>
+                <input type="radio" name="desenho" value="desenho animado">Desenho animado
+            </tabel>
+        </div>
+        <div class="campo">
+            <label for="Desenho favorito"><strong> Desenho favorito</strong></label>
+            <select id="desenhofavorito">
+                <option selected disabled value="">selecione</option>
+                <option>DBZ</option>
+                <option>Batman</option>
+                <option>Naruto</option>
+                <option>Tom e Jerry</option>
+                <option>Simpsons</option>
+            </select>
+        </div>
+        <fieldset class="grup">
+            <div id="checkbox">
+                <label><strong> selecione as os melhors desenho:</strong></label><br></br>
+                <input type="checkbox" id="tecnologia1" nome="tecnologia1" value="htm">
+                <tabel for="tecnologia1"> Html</tabel>
+                <input type="checkbox" id="tecnologia2" nome="tecnologia2" value="Css">
+                <tabel for="tecnologia2"> Css</tabel>
+                <input type="checkbox" id="tecnologia3" nome="tecnologia3" value="javascript">
+                <tabel for="tecnologia3"> Javascript</tabel>
+                <input type="checkbox" id="tecnologia4" nome="tecnologia4" value="php">
+                <tabel for="tecnologia4"> Php</php>
+                    <input type="checkbox" id="tecnologia5" nome="tecnologia5" value="c#">
+                    <tabel for="tecnologia5"> C#</c#>
+                        <input type="checkbox" id="tecnologia6" nome="tecnologia6" value="python">
+                        <tabel for="tecnologia6"> Python</python>
+                            <input type="checkbox" id="tecnologia7" nome="Tecnologia7" value="java">
+                            <tabel for="tecnologia7"> Java</java>
+
+            </div>
+        </fieldset class="grupo">
+        <div class="campo">
+            <br>
+            <tabel><strong>conte umpouco da sua experoencia:</strong></tabel>
+            <textarea rom="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+        <button class="botao" type="submit">concluido</button>
+    </form>
+    <img src="image/Wallace.png" class="image">
+</body>
+
+</html>
